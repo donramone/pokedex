@@ -1,15 +1,18 @@
 /*CSS robado desde aca */
+
 div.cap {
 	display: block;
-	height: 100px;
-	width: 40px;
+	height: 100%;
+	width: 50px;
+	padding-top: 50px;
 	background: url(http://fivera.net/wp-content/uploads/2013/08/dock-background-fivera-net.png) bottom left no-repeat;
 }
 
 div.cap.left {
 	position: absolute;
-	bottom: 0px;
+	top: 0px;
 	left: 0px;
+	/* background-color: greenyellow; */
 }
 
 div.cap.right {
@@ -17,24 +20,26 @@ div.cap.right {
 	position: absolute;
 	top: 0px;
 	right: 0px;
+	/* background-color: lightskyblue; */
 }
 
-ul.osx-dock {
+ul.pokemon-dock {
 	display: inline-block;
-	height: 130px;
-	padding: 0 40px 0 0;
+	height: 100px; 
+	/* padding: 10px 0 0 0; */
 	background: url(http://fivera.net/wp-content/uploads/2013/08/dock-background-fivera-net.png) no-repeat right bottom;
-	overflow: hidden;
-	margin: 0 0 0 40px;
+	/* overflow: hidden; */
+
+	margin-right: 50px;
 }
 
-ul.osx-dock li {
+ul.pokemon-dock li {
 	display: block;
 	position: relative;
 	float: left;
 	width: 50px;
 	height: 50px;
-	margin: 60px 0 4px 0;
+	/* margin: 60px 0 4px 0; */
 
 	-webkit-transition: 0.15s linear;
 	-moz-transition: 0.15s linear;
@@ -50,10 +55,11 @@ ul.osx-dock li {
 	text-align: center;
 }
 
-ul.osx-dock li a {
+ul.pokemon-dock li a {
 	display: block;
 	height: 50px;
 	padding: 0 1px;
+	margin: 0;
 
 	-webkit-transition: 0.15s linear;
 	-moz-transition: 0.15s linear;
@@ -66,21 +72,21 @@ ul.osx-dock li a {
 	-o-transition-property: -o-transform margin;
 	-ms-transition-property: -ms-transform margin;
 	transition-property: transform margin;
-	margin: 0;
+	
 	-webkit-box-reflect: below 2px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.45, transparent), to(rgba(255, 255, 255, 0.25)));
 }
 
-ul.osx-dock li a img {
-	width: 48px;
+ul.pokemon-dock li a img {
+	width: 50px;
 }
 
-ul.osx-dock li:hover {
+ul.pokemon-dock li:hover {
 	margin-left: 9px;
 	margin-right: 9px;
 	z-index: 200;
 }
 
-ul.osx-dock li:hover a {
+ul.pokemon-dock li:hover a {
 	-webkit-transform-origin: center bottom;
 	-moz-transform-origin: center bottom;
 	-o-transform-origin: center bottom;
@@ -94,13 +100,13 @@ ul.osx-dock li:hover a {
 	transform: scale(1.5);
 }
 
-ul.osx-dock li.nearby {
+ul.pokemon-dock li.nearby {
 	margin-left: 6px;
 	margin-right: 6px;
 	z-index: 100;
 }
 
-ul.osx-dock li.nearby a {
+ul.pokemon-dock li.nearby a {
 	-webkit-transform-origin: center bottom;
 	-moz-transform-origin: center bottom;
 	-o-transform-origin: center bottom;
@@ -114,7 +120,7 @@ ul.osx-dock li.nearby a {
 	transform: scale(1.25);
 }
 
-ul.osx-dock li span {
+ul.pokemon-dock li span {
 	background: rgba(0,0,0,0.75);
 	position: absolute;
 	bottom: 80px;
@@ -128,15 +134,15 @@ ul.osx-dock li span {
 	color: #fff;
 }
 
-ul.osx-dock li:hover span {
+ul.pokemon-dock li:hover span {
 	display: block;
 }
 
 div#dockContainer {
 	position: fixed;
 	bottom: 65px;
-	height: 120px;
-	padding: 50px 0 0;
+	height: 100px;
+	padding: 50px 0 0 0;
 	text-align: center;
 	border-radius: 6px;
 	width: 100%;
@@ -150,6 +156,8 @@ div#dockWrapper {
 	position: relative;
 	border-bottom: solid 2px rgba(255,255,255,.35);
 	line-height: 0;
+	/* background-color: blueviolet;  */
+	padding: 8px;
 }
 
-/*CSS robado hasta aca */
+
