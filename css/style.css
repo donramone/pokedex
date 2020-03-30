@@ -121,17 +121,17 @@ ul.pokemon-dock li.nearby a {
 }
 
 ul.pokemon-dock li span {
-	background: rgba(0,0,0,0.75);
+	/* background: rgba(0,0,0,0.75); */
 	position: absolute;
-	bottom: 80px;
+	bottom: 100px;
 	margin: 0 auto;
 	display: none;
 	width: auto;
-	font-size: 11px;
+	font-size: 20px;
 	font-weight: bold;
-	padding: 3px 6px;
-	border-radius: 6px;
-	color: #fff;
+	padding: 3px 3px;
+	border-radius: 6px; 
+	color: rgb(226, 17, 139);
 }
 
 ul.pokemon-dock li:hover span {
