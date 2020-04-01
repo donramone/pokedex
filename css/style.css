@@ -1,4 +1,9 @@
-/*CSS robado desde aca */
+ 
+body{
+	margin: 0;
+	padding: 0;
+	background-color: lightcyan;
+}
 
 div.cap {
 	display: block;
@@ -160,4 +165,44 @@ div#dockWrapper {
 	padding: 8px;
 }
 
+header{
 
+	text-align: center;
+	/* background-color: cyan; */
+}
+
+h1{
+	font-size: 40px;
+
+}
+.pockemon-wrapper{
+	overflow: hidden;
+
+	/* background-color: chartreuse; */
+	width: 650px;
+	height: 350px;
+	padding-top: 50px;
+	margin: auto;
+}
+
+.pokemon-imagen{
+	float: left;
+	/* background-color: rgb(200, 27, 235); */
+	width: 340px;
+	height: 340px;
+}
+.pokemon-info{
+	 float: right; 
+	/* background-color: rgb(181, 157, 185); */
+	width: 300px;
+	height: 340px;
+}
+
+#pokeImg{
+	/* background-color: rgb(171, 224, 22); */
+	width: 220px;
+	height: 280px;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+}
