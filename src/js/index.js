@@ -123,7 +123,10 @@ function crearDockPokemones(pokemones){
 
 $pokemon.addEventListener("click", (evento) => {
     const idPokemon = event.target.id;
-    obtenerPokemonPorId(idPokemon);
+    if(idPokemon !==""){
+        obtenerPokemonPorId(idPokemon);
+    }
+   
    
 });
 
